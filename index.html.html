@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djani Hairstyle - Coiffeur Coloriste à Montpellier</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#D4AF37',secondary:'#0095F6'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body {
+            background-color: #0a0a14;
+            color: #f5f5f5;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .cinzel {
+            font-family: 'Cinzel', serif;
+        }
+        .gold-text {
+            color: #D4AF37;
+        }
+        .gold-border {
+            border-color: #D4AF37;
+        }
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(212, 175, 55, 0.2);
+        }
+        .gallery-image {
+            transition: transform 0.3s ease;
+        }
+        .gallery-image:hover {
+            transform: scale(1.05);
+        }
+        .hero-section {
+            background: linear-gradient(to right, rgba(10, 10, 20, 0.9), rgba(10, 10, 20, 0.7)), url('https://readdy.ai/api/search-image?query=luxury%2520hair%2520salon%2520interior%2520with%2520elegant%2520black%2520and%2520gold%2520decor%252C%2520professional%2520lighting%252C%2520high-end%2520styling%2520chairs%252C%2520and%2520modern%2520minimalist%2520aesthetic.%2520The%2520image%2520shows%2520a%2520sophisticated%2520space%2520with%2520dark%2520walls%252C%2520golden%2520accents%252C%2520and%2520a%2520masculine%2520vibe&width=1200&height=600&seq=123&orientation=landscape');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="relative w-full bg-black py-4 px-4 md:px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <h1 class="cinzel text-xl md:text-2xl font-bold text-white">Djani<span class="gold-text">Hairstyle</span></h1>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="text-sm text-gray-400">
+                    <span class="text-white font-semibold">483</span> posts
+                </div>
+                <div class="text-sm text-gray-400">
+                    <span class="text-white font-semibold">4,441</span> followers
+                </div>
+                <button class="bg-secondary text-white px-6 py-2 !rounded-button font-medium whitespace-nowrap">
+                    Follow
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section w-full py-16 md:py-24">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="max-w-3xl">
+                <h2 class="cinzel text-3xl md:text-4xl lg:text-5xl font-bold mb-6 gold-text">Djani Hairstyle</h2>
+                <h3 class="text-xl md:text-2xl mb-6">Coiffeur Montpellier</h3>
+                <div class="space-y-3 text-lg">
+                    <p class="text-gray-300">Hair Stylist</p>
+                    <p><span class="gold-text">⚜️</span> Ombré Hair <span class="gold-text">⚜️</span></p>
+                    <p><span class="gold-text">⭐</span> Spécialiste Coloriste <span class="font-semibold">FR</span></p>
+                    <p>🎨 Créateur : D&L Soin Signature</p>
+                    <p>📅 RDV UNIQUEMENT MP</p>
+                    <p>📍 Montpellier</p>
+                </div>
+                <div class="mt-8">
+                    <a href="#contact" class="inline-block bg-primary text-black font-bold px-8 py-3 !rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap">
+                        Prendre RDV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 md:py-24 bg-black bg-opacity-80">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="cinzel text-2xl md:text-3xl font-bold mb-12 text-center gold-text">Nos Prestations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="service-card bg-[#0f0f1a] p-6 rounded border border-gray-800 hover:border-primary">
+                    <div class="w-16 h-16 flex items-center justify-center mb-4 mx-auto bg-primary bg-opacity-10 rounded-full">
+                        <i class="ri-scissors-line ri-xl gold-text"></i>
+                    </div>
+                    <h3 class="cinzel text-xl font-bold mb-2 text-center">Ombré Hair</h3>
+                    <p class="text-center text-gray-400 mb-4">Notre spécialité signature pour un dégradé parfait</p>
+                    <p class="text-center gold-text font-bold">À partir de 85€</p>
+                </div>
+                <div class="service-card bg-[#0f0f1a] p-6 rounded border border-gray-800 hover:border-primary">
+                    <div class="w-16 h-16 flex items-center justify-center mb-4 mx-auto bg-primary bg-opacity-10 rounded-full">
+                        <i class="ri-palette-line ri-xl gold-text"></i>
+                    </div>
+                    <h3 class="cinzel text-xl font-bold mb-2 text-center">Coloration</h3>
+                    <p class="text-center text-gray-400 mb-4">Techniques professionnelles pour un résultat impeccable</p>
+                    <p class="text-center gold-text font-bold">À partir de 65€</p>
+                </div>
+                <div class="service-card bg-[#0f0f1a] p-6 rounded border border-gray-800 hover:border-primary">
+                    <div class="w-16 h-16 flex items-center justify-center mb-4 mx-auto bg-primary bg-opacity-10 rounded-full">
+                        <i class="ri-sparkling-line ri-xl gold-text"></i>
+                    </div>
+                    <h3 class="cinzel text-xl font-bold mb-2 text-center">Soin Signature D&L</h3>
+                    <p class="text-center text-gray-400 mb-4">Notre traitement exclusif pour des cheveux revitalisés</p>
+                    <p class="text-center gold-text font-bold">À partir de 45€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-[#0a0a14]">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="cinzel text-2xl md:text-3xl font-bold mb-12 text-center gold-text">Nos Réalisations</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="gallery-image overflow-hidden rounded">
+                    <img src="https://readdy.ai/api/search-image?query=professional%2520ombre%2520hair%2520styling%2520result%2520on%2520a%2520model%2520with%2520dark%2520roots%2520fading%2520to%2520caramel%2520blonde%2520ends%252C%2520elegant%2520styling%252C%2520luxurious%2520finish%252C%2520salon%2520quality%2520hair%2520transformation%2520with%2520smooth%2520texture%2520and%2520shine&width=400&height=400&seq=1&orientation=squarish" alt="Ombré Hair" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="gallery-image overflow-hidden rounded">
+                    <img src="https://readdy.ai/api/search-image?query=professional%2520balayage%2520hair%2520coloring%2520on%2520brunette%2520hair%252C%2520showing%2520natural%2520highlights%2520and%2520dimension%252C%2520salon%2520quality%2520finish%252C%2520elegant%2520styling%2520with%2520waves%252C%2520luxurious%2520hair%2520color%2520transformation%2520with%2520seamless%2520blending&width=400&height=400&seq=2&orientation=squarish" alt="Balayage" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="gallery-image overflow-hidden rounded">
+                    <img src="https://readdy.ai/api/search-image?query=professional%2520blonde%2520hair%2520coloring%2520result%2520with%2520platinum%2520tones%252C%2520salon%2520quality%2520finish%252C%2520elegant%2520styling%2520with%2520volume%252C%2520luxurious%2520hair%2520transformation%2520showing%2520healthy%2520shine%2520and%2520perfect%2520toning%252C%2520no%2520brassiness&width=400&height=400&seq=3&orientation=squarish" alt="Coloration Blonde" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="gallery-image overflow-hidden rounded">
+                    <img src="https://readdy.ai/api/search-image?query=professional%2520hair%2520treatment%2520result%2520showing%2520before%2520and%2520after%2520of%2520damaged%2520hair%2520transformed%2520to%2520healthy%2520shiny%2520hair%252C%2520salon%2520quality%2520finish%252C%2520luxurious%2520hair%2520care%2520transformation%2520with%2520visible%2520improvement%2520in%2520texture&width=400&height=400&seq=4&orientation=squarish" alt="Soin D&L" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="gallery-image overflow-hidden rounded">
+                    <img src="https://readdy.ai/api/search-image?query=professional%2520caramel%2520highlights%2520on%2520dark%2520hair%252C%2520salon%2520quality%2520finish%252C%2520elegant%2520styling%2520with%2520soft%2520waves%252C%2520luxurious%2520hair%2520color%2520transformation%2520with%2520dimension%2520and%2520movement%252C%2520warm%2520tones&width=400&height=400&seq=5&orientation=squarish" alt="Mèches Caramel" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="gallery-image overflow-hidden rounded">
+                    <img src="https://readdy.ai/api/search-image?query=professional%2520red%2520copper%2520hair%2520color%2520result%252C%2520vibrant%2520salon%2520quality%2520finish%252C%2520elegant%2520styling%2520with%2520volume%252C%2520luxurious%2520hair%2520transformation%2520showing%2520dimensional%2520color%2520with%2520shine%2520and%2520depth&width=400&height=400&seq=6&orientation=squarish" alt="Coloration Cuivrée" class="w-full h-full object-cover object-top">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-black">
+        <div class="container mx-auto px-4 md:px-8 text-center">
+            <h2 class="cinzel text-2xl md:text-3xl font-bold mb-8 gold-text">Réservez Votre Rendez-vous</h2>
+            <p class="mb-8 max-w-2xl mx-auto">Pour prendre rendez-vous, envoyez-nous un message privé sur Instagram avec vos disponibilités et le service souhaité.</p>
+            <a href="https://www.instagram.com/djanihairstyle/" target="_blank" class="inline-block bg-secondary text-white font-bold px-8 py-3 !rounded-button hover:bg-opacity-90 transition-all mb-8 whitespace-nowrap">
+                <span class="flex items-center">
+                    <i class="ri-instagram-line mr-2"></i>
+                    Réserver en MP sur Instagram
+                </span>
+            </a>
+            <div class="mt-12">
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 flex items-center justify-center mr-3 text-primary">
+                            <i class="ri-map-pin-line ri-lg"></i>
+                        </div>
+                        <span>Montpellier, France</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 flex items-center justify-center mr-3 text-primary">
+                            <i class="ri-time-line ri-lg"></i>
+                        </div>
+                        <span>Mar-Sam: 9h30-19h00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#080810] py-8">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="cinzel text-xl font-bold">Djani<span class="gold-text">Hairstyle</span></h3>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-700 hover:border-primary transition-colors">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-700 hover:border-primary transition-colors">
+                        <i class="ri-facebook-line"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-700 hover:border-primary transition-colors">
+                        <i class="ri-tiktok-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-800 text-center text-sm text-gray-500">
+                <p>© 2025 Djani Hairstyle. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollLinks = document.querySelectorAll('a[href^="#"]');
+            scrollLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
